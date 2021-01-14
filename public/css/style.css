@@ -1,0 +1,155 @@
+h1, h3, h2
+{
+    text-align:center;
+}
+
+.news h3
+{
+    background-color: #CCCCCC;
+    color:black;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+
+.news p
+{
+    background-color:white;
+    color: black;
+    margin-top:0px;
+}
+
+.news
+{
+    width:60%;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-style: normal; 
+}
+
+.commentaire
+{
+    width:60%;
+    margin:auto;
+
+}
+
+.commentaire h2
+{
+    background-color: #404040;
+
+    color: white;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+}
+
+
+.auteur
+{
+    background-color: #CCCCCC;
+    margin-bottom: 0px;
+}
+
+.contenu
+{
+    background-color: white;
+	color : blue;
+
+    font-style: font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right:450px
+}
+
+#ajout
+{
+    width: 40%;
+    margin: auto;
+}
+#ajout h2
+{
+    text-align: center;
+    border: thick double black;
+    margin: auto;
+}
+#ajout div{
+    text-align: center;
+}
+
+#suppression div{
+    text-align: center;
+}
+
+.container > input[type="checkbox"] {
+  display: none;
+}
+.container > label {
+  display: block;
+
+}
+.container > label:after {
+  content: ' +';
+}
+.container > label + div {
+  display: none;
+}
+.container > div {
+  background-color: #C0C0C0;
+  width: 20rem;
+  text-align: center;
+}
+.container > input[type="checkbox"]:checked + label + div {
+  display: block;
+}
+.container > input[type="checkbox"]:checked + label::after {
+  content: ' -';
+}
+
+.divfooter > div  {
+    margin-top:630px;
+}
+
+.div2footer{
+    margin-top:300px
+}
+
+#c{
+    color:black;
+    margin-left: 500px;
+}
+
+#nav-link.active {
+  color: black;
+}
+
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+body {
+    display : table;
+    width: 100%;
+}
+
+footer {
+    display : table-row;
+    height: 100px;
+}
+
+#img{
+    width: 125px;
+    height: 100px;
+}
+
+#left{
+	float: left;
+}
+
+.listeDéroulante{
+    text-align: center;
+}
